@@ -1,16 +1,69 @@
-# React + Vite
+# 🧠 AlgoViz — Algorithm Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AlgoViz is an interactive web app that visually demonstrates how different **sorting algorithms** work step-by-step.  
+It helps users understand algorithm behavior through animations, colors, and adjustable speed controls — all in a clean, modern interface.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://algoviz-algortimvisualizer.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎨 **Interactive Sorting Visualizer**
+  - Bubble Sort
+  - Merge Sort
+  - Quick Sort
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ **Dynamic Array Generation**
+  - Generate a new random dataset instantly.
+  
+- 🎞️ **Animated Step-by-Step Visualization**
+  - Color-coded comparisons and swaps.
+  - Adjustable animation speed slider.
+
+- 🧮 **Algorithm Complexity Display**
+  - Shows time & space complexity for each algorithm.
+
+- 💻 **Fully Responsive UI**
+  - Built with React + TailwindCSS + Vite.
+
+---
+
+## 🛠️ Tech Stack
+
+|  **Technology**   |           **Purpose**                 |
+|-------------------|---------------------------------------|
+| React             | Frontend framework                    |
+| Vite              | Lightning-fast development build tool |
+| TailwindCSS       | Styling and layout                    |
+| JavaScript (ES6+) | Core logic and animations             |
+
+---
+
+## 🧩 How It Works
+
+Each algorithm uses async/await and setTimeout to visualize sorting in real-time.
+Bars change colors during comparison:
+
+🔵 Blue → Default
+
+🔴 Red → Comparing
+
+🟢 Green → Sorted
+
+---
+
+## 📊 Algorithm Complexities
+
+Algorithm	Time Complexity	Space Complexity
+Bubble Sort	O(n²)	O(1)
+Merge Sort	O(n log n)	O(n)
+Quick Sort	O(n log n) average, O(n²) worst	O(log n)
+
+---
+
+## 👩‍💻 Author
+Vaishnavi Arya
+www.linkedin.com/in/vaishnavi-arya-20v25
