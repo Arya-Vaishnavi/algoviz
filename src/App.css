@@ -1,0 +1,65 @@
+.app {
+  text-align: center;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+select,
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+button {
+  background-color: #38bdf8;
+  color: black;
+  font-weight: 600;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.speed-control {
+  margin-bottom: 20px;
+}
+
+.bars-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 4px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.bar {
+  width: 16px;
+  background-color: #38bdf8;
+  border-radius: 4px;
+}
+
+.complexity {
+  background-color: #1e293b;
+  padding: 16px;
+  border-radius: 8px;
+  width: fit-content;
+  margin: 0 auto;
+}
