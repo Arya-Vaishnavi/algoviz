@@ -57,10 +57,11 @@ Bars change colors during comparison:
 
 ## 📊 Algorithm Complexities
 
-Algorithm	Time Complexity	Space Complexity
-Bubble Sort	O(n²)	O(1)
-Merge Sort	O(n log n)	O(n)
-Quick Sort	O(n log n) average, O(n²) worst	O(log n)
+|**Algorithm**|      **Time Complexity**        |**Space Complexity**|
+|-------------|---------------------------------|--------------------|
+| Bubble Sort |	O(n²)	                        | O(1)               |
+| Merge Sort  | O(n log n)	                    | O(n)               |
+| Quick Sort  |	O(n log n) average, O(n²) worst	| O(log n)           |
 
 ---
 
